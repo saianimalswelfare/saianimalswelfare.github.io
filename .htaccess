@@ -30,8 +30,8 @@
 </IfModule>
 
 RewriteEngine On
-RewriteCond %{HTTP_HOST} !^saianimalswelfare.com$ [NC]
-RewriteRule ^(.*)$ http://saianimalswelfare.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} !^saianimalwelfare.com$ [NC]
+RewriteRule ^(.*)$ http://saianimalwelfare.com/$1 [L,R=301]
 
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
